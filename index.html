@@ -222,18 +222,13 @@
   }
   .card:hover{ border-color: var(--line-strong); transform: translateY(-2px); }
 
-<<<<<<< HEAD
  .card-cover{
-=======
-  .card-cover{
->>>>>>> a3d7cdbef40f161aa23fc876a4380af9d5caa6f8
     height: 132px;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     color: rgba(255,255,255,0.92);
-<<<<<<< HEAD
     overflow: hidden;
   }
   .card-cover svg{ width: 46px; height: 46px; opacity: .9; }
@@ -243,10 +238,6 @@
     object-fit: cover;
     display: block;
   }
-=======
-  }
-  .card-cover svg{ width: 46px; height: 46px; opacity: .9; }
->>>>>>> a3d7cdbef40f161aa23fc876a4380af9d5caa6f8
   .card-cover .ticket-no{
     position: absolute;
     top: 10px;
@@ -255,12 +246,9 @@
     font-size: 11px;
     letter-spacing: 1px;
     color: rgba(255,255,255,0.75);
-<<<<<<< HEAD
     background: rgba(0,0,0,0.35);
     padding: 2px 6px;
     border-radius: 4px;
-=======
->>>>>>> a3d7cdbef40f161aa23fc876a4380af9d5caa6f8
     transform: rotate(2deg);
   }
 
@@ -414,12 +402,8 @@
     tiro: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/><circle cx="12" cy="12" r="1.6" fill="currentColor" stroke="none"/></svg>`,
     sobrevivencia: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.5 5 5.5.8-4 3.9.9 5.5L12 15.8 7.1 18.2l.9-5.5-4-3.9 5.5-.8z"/></svg>`,
     acao: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="7"/><path d="M12 8v4l3 2"/></svg>`,
-<<<<<<< HEAD
     simulacao: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><ellipse cx="12" cy="12" rx="9" ry="3.6"/></svg>`,
     quiz: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2-3 4"/><line x1="12" y1="17" x2="12" y2="17.2"/></svg>`
-=======
-    simulacao: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><ellipse cx="12" cy="12" rx="9" ry="3.6"/></svg>`
->>>>>>> a3d7cdbef40f161aa23fc876a4380af9d5caa6f8
   };
 
   const genreLabels = {
@@ -447,7 +431,6 @@
 
   // ---------- Dados: jogos gratuitos e de código aberto ----------
   const games = [
-<<<<<<< HEAD
     { id: 1, nome: 'Memory Sunset - Beatriz', genero: 'estrategia', plataformas: 'Navegador', imagem: '/img/beatriz.png',
       desc: '4X por turnos de construção de império, do início da civilização até a era espacial, jogável sozinho ou em rede.',
       link: 'https://memorysunset.netlify.app/login.html' },
@@ -472,46 +455,13 @@
     { id: 8, nome: 'PicDraw - Miguel', genero: 'simulacao', plataformas: 'Navegador', imagem: '/img/miguel.png',
       desc: '4X por turnos de construção de império, do início da civilização até a era espacial, jogável sozinho ou em rede.',
       link: 'https://draw-connect-play.base44.app/' },
-    { id: 9, nome: 'Naara', genero: 'simulacao', plataformas: 'Navegador', 
+    { id: 9, nome: 'Naara', genero: 'simulacao', plataformas: 'Navegador',  imagem: '/img/naara.png',
       desc: '4X por turnos de construção de império, do início da civilização até a era espacial, jogável sozinho ou em rede.',
-      link: 'https://' },
+      link: 'https://cafe-bolinho.base44.app/menu' },
     { id: 10, nome: 'JIBOIA - Nicolas', genero: 'estrategia', plataformas: 'Navegador', imagem: '/img/nicolas.png',
       desc: '4X por turnos de construção de império, do início da civilização até a era espacial, jogável sozinho ou em rede.',
       link: 'https://jiboia.onrender.com/' },
     { id: 11, nome: 'PetTec - Rebeca', genero: 'estrategia', plataformas: 'Navegador', imagem: '/img/rebeca.png',
-=======
-    { id: 1, nome: 'Memory Sunset - Beatriz', genero: 'estrategia', plataformas: 'Navegador',
-      desc: '4X por turnos de construção de império, do início da civilização até a era espacial, jogável sozinho ou em rede.',
-      link: 'https://memorysunset.netlify.app/login.html' },
-    { id: 2, nome: 'Quiz Blast - Diego', genero: 'quiz', plataformas: 'Navegador',
-      desc: '4X por turnos de construção de império, do início da civilização até a era espacial, jogável sozinho ou em rede.',
-      link: 'https://tidy-quiz-live-play.base44.app/' },
-    { id: 3, nome: 'Batalha de Reflexo - Diogo', genero: 'corrida', plataformas: 'Navegador',
-      desc: '4X por turnos de construção de império, do início da civilização até a era espacial, jogável sozinho ou em rede.',
-      link: 'https://batalha-de-reflexo1.onrender.com/' },
-    { id: 4, nome: 'PURA Play - Franmarys', genero: 'quiz', plataformas: 'Navegador',
-      desc: '4X por turnos de construção de império, do início da civilização até a era espacial, jogável sozinho ou em rede.',
-      link: 'https://multiple-play-2d551.web.app/' },
-    { id: 5, nome: 'Piano - Giulia', genero: 'simulacao', plataformas: 'Navegador',
-      desc: '4X por turnos de construção de império, do início da civilização até a era espacial, jogável sozinho ou em rede.',
-      link: 'https://giuliazanutto.github.io/piano-game/' },
-    { id: 6, nome: 'Minerador Pro - João', genero: 'simulacao', plataformas: 'Navegador',
-      desc: '4X por turnos de construção de império, do início da civilização até a era espacial, jogável sozinho ou em rede.',
-      link: 'https://minerador-86d39.web.app/' },
-    { id: 7, nome: 'Pedra, Papel e Tesoura - Leandro', genero: 'estrategia', plataformas: 'Navegador',
-      desc: '4X por turnos de construção de império, do início da civilização até a era espacial, jogável sozinho ou em rede.',
-      link: 'https://ppt-online-lzbr.onrender.com/' },
-    { id: 8, nome: 'PicDraw - Miguel', genero: 'simulacao', plataformas: 'Navegador',
-      desc: '4X por turnos de construção de império, do início da civilização até a era espacial, jogável sozinho ou em rede.',
-      link: 'https://draw-connect-play.base44.app/' },
-    { id: 9, nome: 'Naara', genero: 'simulacao', plataformas: 'Navegador',
-      desc: '4X por turnos de construção de império, do início da civilização até a era espacial, jogável sozinho ou em rede.',
-      link: 'https://' },
-    { id: 10, nome: 'JIBOIA - Nicolas', genero: 'estrategia', plataformas: 'Navegador',
-      desc: '4X por turnos de construção de império, do início da civilização até a era espacial, jogável sozinho ou em rede.',
-      link: 'https://jiboia.onrender.com/' },
-    { id: 11, nome: 'PetTec - Rebeca', genero: 'estrategia', plataformas: 'Navegador',
->>>>>>> a3d7cdbef40f161aa23fc876a4380af9d5caa6f8
       desc: '4X por turnos de construção de império, do início da civilização até a era espacial, jogável sozinho ou em rede.',
       link: 'https://pet-tec.vercel.app/' },
     { id: 12, nome: 'SuperTuxKart', genero: 'corrida', plataformas: 'Win / Mac / Linux',
@@ -589,7 +539,6 @@
   function cardTemplate(game, index){
     const [c1, c2] = genreColors[game.genero];
     const ticketNo = String(game.id).padStart(3, '0');
-<<<<<<< HEAD
 const coverContent = game.imagem
       ? `<img src="${game.imagem}" alt="Capa de ${game.nome}" loading="lazy">`
       : icons[game.genero];
@@ -598,12 +547,6 @@ const coverContent = game.imagem
       <article class="card">
         <div class="card-cover" ${coverStyle}>
           ${coverContent}
-=======
-    return `
-      <article class="card">
-        <div class="card-cover" style="background: linear-gradient(135deg, ${c1}, ${c2});">
-          ${icons[game.genero]}
->>>>>>> a3d7cdbef40f161aa23fc876a4380af9d5caa6f8
           <span class="ticket-no">Nº ${ticketNo}</span>
         </div>
         <div class="card-stub">
